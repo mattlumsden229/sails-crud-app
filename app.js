@@ -26,6 +26,15 @@
 // > Note: This is not required in order to lift, but it is a convenient default.
 process.chdir(__dirname);
 
+const Redis = require('ioredis');
+const fs = require('fs');
+
+const redis = new Redis({
+    host: 'redis-17587.c57.us-east-1-4.ec2.cloud.redislabs.com',
+    port: 17587,
+    password: 'mvZX41e8D13u4K09j0DxGVCgluaZQZoB'
+});
+
 
 
 // Attempt to import `sails` dependency, as well as `rc` (for loading `.sailsrc` files).
