@@ -20,18 +20,12 @@ module.exports.routes = {
   ***************************************************************************/
 
   '/': { view: 'pages/homepage' },
-  '/articles/list': {
-    controller: 'ArticlesController',
-    action: 'list' // "list" was the name of the function in the video, yours could differ
-    },
-  '/articles/add': {
-    controller: 'ArticlesController',
-    action: 'add'
-    },
-    '/articles/create': 'ArticlesController.create',
-    '/articles/delete/:id?': 'ArticlesController.delete',
-    '/articles/edit/:id?': 'ArticlesController.edit',
-    '/articles/update/:id?': 'ArticlesController.update',
+  '/articles/list': 'ArticlesController.list',
+  '/articles/add': 'ArticlesController.add',
+  '/articles/create': 'ArticlesController.create',
+  '/articles/delete/:id?': 'ArticlesController.delete',
+  '/articles/edit/:id?': 'ArticlesController.edit',
+  '/articles/update/:id?': 'ArticlesController.update',
 
 
   /***************************************************************************

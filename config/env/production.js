@@ -47,7 +47,7 @@ module.exports = {
     ***************************************************************************/
     default: {
       adapter: 'sails-mongo',
-      // url: 'mysql://user:password@host:port/database',
+      url: 'mongodb+srv://article:base@cluster0.eogdxfe.mongodb.net/test',
       //--------------------------------------------------------------------------
       //  /\   To avoid checking it in to version control, you might opt to set
       //  ||   sensitive credentials like `url` using an environment variable.
@@ -264,9 +264,9 @@ module.exports = {
     * > Be sure to use the right protocol!  ("http://" vs. "https://")         *
     *                                                                          *
     ***************************************************************************/
-    onlyAllowOrigins: [
-      'https://sails-crud-app.herokuapp.com',
-    ],
+    // onlyAllowOrigins: [
+    //   'https://example.com',
+    // ],
 
 
     /***************************************************************************
@@ -353,7 +353,7 @@ module.exports = {
   * this, just try deploying without setting it and see if it works.)       *
   *                                                                         *
   ***************************************************************************/
-  port: 80,
+  // port: 80,
 
 
 
