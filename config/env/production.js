@@ -47,7 +47,7 @@ module.exports = {
     ***************************************************************************/
     default: {
       adapter: 'sails-mongo',
-      url: 'mongodb+srv://article:base@cluster0.eogdxfe.mongodb.net/test',
+      url: 'mongodb+srv://article:base@cluster0.eoarpem.mongodb.net/test',
       //--------------------------------------------------------------------------
       //  /\   To avoid checking it in to version control, you might opt to set
       //  ||   sensitive credentials like `url` using an environment variable.
@@ -146,9 +146,9 @@ module.exports = {
     * > Be sure to use the right protocol!  ("http://" vs. "https://")         *
     *                                                                          *
     ***************************************************************************/
-    cors: {
-      allowOrigins: ["https://helpful-drawers-bull.cyclic.app/", "https://sails-crud-app.cyclic.app/"]
-    },
+    // cors: {
+    //   allowOrigins: ["https://helpful-drawers-bull.cyclic.app/", "https://sails-crud-app.cyclic.app/"]
+    // },
 
   },
 
@@ -233,7 +233,7 @@ module.exports = {
     *                                                                          *
     ***************************************************************************/
     cookie: {
-      // secure: true,
+      secure: true,
       maxAge: 24 * 60 * 60 * 1000,  // 24 hours
     },
 
@@ -262,7 +262,7 @@ module.exports = {
     * > Be sure to use the right protocol!  ("http://" vs. "https://")         *
     *                                                                          *
     ***************************************************************************/
-    onlyAllowOrigins: ["https://helpful-drawers-bull.cyclic.app/", "https://sails-crud-app.cyclic.app/"],
+    onlyAllowOrigins: ["https://busy-cyan-eagle-hem.cyclic.app", "https://sails-crud-app.cyclic.app"],
 
 
     /***************************************************************************

@@ -33,8 +33,8 @@ module.exports.datastores = {
   ***************************************************************************/
 
   default: {
-    adapter: 'sails-mongo',
-    url: 'mongodb+srv://article:base@cluster0.eogdxfe.mongodb.net/test'
+    // adapter: 'sails-mongo',
+    // url: 'mongodb+srv://article:base@cluster0.eoarpem.mongodb.net/test'
 
     /***************************************************************************
     *                                                                          *
