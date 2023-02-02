@@ -10,7 +10,7 @@
  */
 
 module.exports.sockets = {
-
+// onlyAllowOrigins: ["https://helpful-drawers-bull.cyclic.app/", "https://sails-crud-app.cyclic.app/"],
   /***************************************************************************
   *                                                                          *
   * `transports`                                                             *
